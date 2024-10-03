@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @Heritage-XioN
+to- 👋 Hi, I’m @Heritage-XioN
 - 👀 I’m interested in :
--    full stack development,
--    game development,
--     AI & Machine learning 
+-    Full Stack Development,
+-    Game Development
+-    AI & Machine learning 
 - 🌱 I’m currently learning React and Nextjs
 - 💞️ I’m looking to collaborate on frontend based applications 
 - 📫 you can reach me through my social or Email ✉️ 
