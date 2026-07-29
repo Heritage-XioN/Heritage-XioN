@@ -39,8 +39,14 @@ I am a Fullstack Software Engineer with a strong interest in systems engineering
 ## 📊 GitHub Activity
 
 <p align="left">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Heritage-XioN&theme=dracula" alt="Heritage's GitHub Stats" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Heritage-XioN&theme=dracula" alt="Top Languages by Commit" width="48%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Heritage-XioN&theme=github_dark" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Heritage-XioN&theme=github" alt="Heritage's GitHub Stats" width="48%" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Heritage-XioN&theme=github_dark" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Heritage-XioN&theme=github" alt="Top Languages by Commit" width="48%" />
+  </picture>
 </p>
 
 ---
