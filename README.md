@@ -37,7 +37,6 @@
 </div>
 
 <br/>
-<br/>
 
 <div align="center">
   <a href="https://skillicons.dev">
@@ -45,7 +44,6 @@
   </a>
 </div>
 
-<br/>
 <br/>
 
 <div align="center">
