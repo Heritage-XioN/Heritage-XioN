@@ -22,7 +22,7 @@ jobs:
         with:
           config: |
             login: Heritage-XioN
-            uptimeStart: '2022-01-01'
+            uptimeStart: '2025-11-01'
 
             card:
               align: left
