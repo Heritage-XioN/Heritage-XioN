@@ -1,0 +1,47 @@
+name: ASCII profile card
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: hu553in/ascii-profile-card@v1
+        with:
+          config: |
+            login: Heritage-XioN
+
+            card:
+              align: left
+              lowercase: true
+              uptimeStart: '2022-01-01'
+              lines:
+                - { type: header, text: 'Heritage-XioN' }
+                - { type: kv, key: role, value: 'rust & systems engineer' }
+                - { type: kv, key: focus, value: 'low-latency systems, async runtimes' }
+                - { type: kv, key: uptime, value: '{uptime}' }
+                - { type: kv, key: interests, value: 'systems programming, oss, performance' }
+                - { type: kv, key: languages, value: 'en' }
+                - { type: section, title: 'contact' }
+                - { type: kv, key: linkedin, value: 'linkedin.com/in/heritage-iyoke' }
+                - { type: kv, key: medium, value: 'medium.com/@heritage934' }
+                - { type: kv, key: x, value: 'x.com/heritage_x0' }
+                - { type: section, title: 'github stats' }
+                - { type: kv, key: repos, value: '{repos} (contributed to {contributedRepos})' }
+                - { type: kv, key: stars, value: '{stars}' }
+                - { type: kv, key: followers, value: '{followers}' }
+                - { type: kv, key: contributions, value: '{contributions} (all time)' }
+                - { type: kv, key: lines of code, value: '{loc} ({locAdded}, {locDeleted})' }
+                - { type: kv, key: top languages, value: '{topLanguages}' }
