@@ -19,7 +19,6 @@
 <p align="center">
   <a href="https://linkedin.com/in/heritage-iyoke">LinkedIn</a> &nbsp;&bull;&nbsp;
   <a href="https://x.com/heritage_x0">X (Twitter)</a> &nbsp;&bull;&nbsp;
-  <a href="https://github.com/Heritage-XioN">GitHub</a> &nbsp;&bull;&nbsp;
   <a href="https://medium.com/@heritage934">Medium</a> &nbsp;&bull;&nbsp;
   <a href="https://ko-fi.com/heritage33377">Ko-Fi</a>
 </p>
