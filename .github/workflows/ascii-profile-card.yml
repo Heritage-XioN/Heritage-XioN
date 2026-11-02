@@ -22,11 +22,11 @@ jobs:
         with:
           config: |
             login: Heritage-XioN
+            uptimeStart: '2022-01-01'
 
             card:
               align: left
               lowercase: true
-              uptimeStart: '2022-01-01T00:00:00Z'
               lines:
                 - { type: header, text: 'Heritage-XioN' }
                 - { type: kv, key: role, value: 'rust & systems engineer' }
