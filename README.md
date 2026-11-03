@@ -47,9 +47,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Heritage-XioN/Heritage-XioN/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Heritage-XioN/Heritage-XioN/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Heritage-XioN/Heritage-XioN/output/github-snake.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Heritage-XioN/Heritage-XioN/snake/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Heritage-XioN/Heritage-XioN/snake/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/Heritage-XioN/Heritage-XioN/snake/github-snake.svg" width="100%" />
   </picture>
 </div>
 
